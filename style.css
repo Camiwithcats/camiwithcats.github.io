@@ -3,22 +3,16 @@ h1 {
   color: blue;
 }
 
-.leader1 {
+.leader {
   text-align: center;
   align-items: center;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 1px;
-  width: 50%;
-}
-
-.leader2 {
-  align-items: center;
-  text-align: center;
   grid-template-columns: 1fr 1fr;
   column-gap: 1px;
   width: 50%;
 }
 
 .leaderbox {
-  display:grid;
+    display: grid;
+    justify-content: space-around;
+    grid-auto-flow: column
 }
