@@ -14,5 +14,5 @@ h1 {
 .leaderbox {
     display: grid;
     justify-content: space-around;
-    grid-auto-flow: column
+    grid-auto-flow: column;
 }
