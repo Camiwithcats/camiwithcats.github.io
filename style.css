@@ -5,10 +5,16 @@ h1 {
 
 .leader1 {
   display: grid;
+  text-align: center;
   align-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1px;
 }
 
 .leader2 {
   display: grid;
   align-items: center;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1px;
 }
