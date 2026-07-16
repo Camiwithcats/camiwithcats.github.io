@@ -4,5 +4,11 @@ h1 {
 }
 
 .leader1 {
-  text-align: center;
+  display: grid;
+  align-items: center;
+}
+
+.leader2 {
+  display: grid;
+  align-items: center;
 }
